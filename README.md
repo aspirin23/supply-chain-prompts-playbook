@@ -16,7 +16,7 @@ This repo is built around a core prompting framework first. The industry prompt 
 ## How to use this repo
 
 1. **Read the prompting guide first** — [`prompting-guide.md`](./prompting-guide.md) gives you the framework. Even if you only want the prompts, skimming the guide will make you significantly better at adapting them.
-2. **Go deeper on a pattern** — if one of the five patterns feels relevant to a problem you're working on, the [`patterns/`](./patterns/) folder has a full breakdown with industry-specific examples and failure modes.
+2. **Go deeper on a pattern** — if one of the five patterns feels relevant to a problem you're working on, the [`prompt patterns/`](./prompt-patterns/) folder has a full breakdown with industry-specific examples and failure modes.
 3. **Browse the industry folders** — each prompt is a worked example of the framework applied to a specific operational problem.
 4. **Copy, adapt, use** — prompts include placeholders in `[brackets]`. Swap in your own context and run them in your preferred LLM.
 
@@ -52,11 +52,11 @@ The **Why this works** section is what separates this from a plain prompt dump �
 ## Structure
 
 ```
-ai-prompts-enterprise/
+enterprise-ai-prompts/
 │
 ├── prompting-guide.md             # Start here — the core framework
 │
-├── patterns/
+├── prompt-patterns/
 │   ├── 01-role-prompting.md       # Assigning the model a professional identity
 │   ├── 02-few-shot-examples.md    # Showing the output you want, not just describing it
 │   ├── 03-chain-of-thought.md     # Step-by-step reasoning for multi-step judgment calls
