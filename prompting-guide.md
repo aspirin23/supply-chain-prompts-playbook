@@ -2,7 +2,7 @@
 
 A practical framework for getting useful outputs from LLMs — written for planners, analysts, and industry professionals.  
 By the end you will have a reusable prompt template and five patterns you can apply to streamline your prompt structure today.  
-*(15 minute read)*
+*(10 minute read)*
 
 ---
 
